@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  user-select: text;
+}
+
+html {
+  background-color: transparent;
+  backdrop-filter: blur(8px);
+  opacity: 1;
+}
+
+#root {
+  padding: 0;
+  font-family: system-ui, sans-serif;
+  background-color: #212129f8;
+  color: #dddeef;
+}
+
+body {
+  // background-color: #0f172abf;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.arco-textarea {
+  border: none !important;
+  outline: none !important;
+  background: none !important;
+  height: 100% !important;
+  width: 100% !important;
+  color: #fff !important;
+  line-height: 22px;
+  resize: none !important;
+  font-family: system-ui, sans-serif;
+}
+
+
+.arco-input {
+  border: none !important;
+  outline: none !important;
+  background: none !important;
+  height: 100% !important;
+  width: 100% !important;
+  color: #fff !important;
+  padding-left: 0px !important;
+  line-height: 22px !important;
+  font-size: 14px !important;
+  height: 42px !important;
+  resize: none;
+  font-family: system-ui, sans-serif;
+  border-bottom: 1px solid #fff !important;
+}
+@font-face {
+  font-family: 'Hubot';
+  src: url('../../assets/fonts/Hubot.woff2') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+.gpt-avatar {
+  background: linear-gradient(
+    to right,
+    rgb(254, 240, 138),
+    rgb(187, 247, 208),
+    rgb(115, 250, 128)
+  );
+}
+
+.user-avatar {
+  background: linear-gradient(to right, rgb(112, 133, 204), rgb(78, 24, 226));
+}

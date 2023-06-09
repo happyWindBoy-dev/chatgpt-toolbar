@@ -1,0 +1,39 @@
+.messageItem {
+  & pre {
+    background-color: #64748b10;
+    font-size: 12px;
+    // padding: 14px 4px;
+    margin: 12px 0px;
+    overflow-x: auto;
+  }
+  
+  & .hljs {
+    background-color: transparent;
+  }
+  
+  & table {
+    font-size: 14px;
+  }
+  
+  & table thead tr {
+    background-color: #64748b40;
+    text-align: left;
+  }
+  
+  & table th, & table td {
+    padding: 16px 20px;
+  }
+
+  & ul,ol {
+    margin-left: 20px;
+  }
+
+  & * {
+    line-height: 28px;
+  } 
+
+  & a {
+    color: lightblue;
+    pointer-events: none;
+  }
+}
