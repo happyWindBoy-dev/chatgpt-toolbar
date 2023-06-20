@@ -175,7 +175,7 @@
     "webpack-merge": "^5.8.0"
   },
   "build": {
-    "productName": "ChatGPT-Native",
+    "productName": "Chatgpt",
     "appId": "org.erb.ChatGPT-Native",
     "asar": true,
     "asarUnpack": "**\\*.{node,dll}",
