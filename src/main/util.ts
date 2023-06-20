@@ -18,7 +18,7 @@ const userDataPath = app.getPath('userData');
 
 const configPath = path.join(userDataPath, 'setting.json');
 const defaultConfig = {
-  apiKey: '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',
+  apiKey: '',
 };
 
 export function getUserConfig() {
